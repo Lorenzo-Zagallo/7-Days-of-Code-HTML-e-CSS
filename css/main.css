@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #667085;
+    margin-right: 2rem;
+}
+
+button {
+    padding:  0.8em 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.5em;
+    background: none;
+    color: #667085;
+    font-size: 1rem;
+}
+
+
+#cadastrar {
+    color: #FFFFFF;
+    background-color: #8E2424;
+}
+
+
+/* -------*/
+
+#empresa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 7rem 0;
+}
+
+.empresa-sobre {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #8E2424;
+}
+
+.empresa-titulo {
+    font-weight: 600;
+    font-size: 3rem;
+    color: #101828;
+}
+
+.empresa-descricao {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #667085;
+    text-align: center;
+    line-height: 30px;
+    max-width: 55%;
+}
+
+
+/* ------- */
+
+#metricas-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 0 4em 4em 4em;
+}
+
+.metricas-container-item {
+    margin: 0 1rem;
+    width: 25%;
+}
+
+.metricas-numero {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.metricas-titulo {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #101828;
+    line-height: 40px;
+}
+
+.metricas-descricao {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #667085;
+}
+
+/* ------ */
+
+#vagas-container {
+    margin: 5rem;
+}
+
+.vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas-abertas-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas-abertas-p1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #8E2424;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.vagas-abertas h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #101828;
+}
+
+.vagas-abertas-p2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #667085;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+}
+
+.vagas-abertas img {
+    width: 95%;
+    margin-top: 4em;
+}
+
+
+/* ----- */
+
+.vagas-disponiveis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.vagas-disponiveis-item {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-bottom: 3em;
+}
+
+.vagas-disponiveis-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    list-style: none;
+}
+
+.vagas-disponiveis-lista li span {
+    display: inline;
+    margin-right: 2em;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #667085;
+}
+
+.vagas-disponiveis-titulo, .vagas-disponiveis-subtitulo {
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 2em;
+}
+
+.vagas-item-lista {
+    margin: 2em;
+}
+
+
+/* ------ */
+
+#depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+
+.depoimentos-container {
+    margin: 0 4rem 4rem 4rem;
+}
+
+.depoimentos-background {
+    margin: 0 2rem;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+
+.depoimentos-textos, .depoimentos-colaboradora {
+    display: block;
+    text-align: center;
+    margin: 5rem auto;
+    width: 80%;
+}
+
+.depoimentos-textos {
+    margin-bottom: 2rem;
+}
+
+.depoimentos-colaboradora {
+    margin-top: 0;
+}
+
+.depoimento-topo {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.depoimento-descricao {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #101828;
+}
+
+.colaboradora-imagem {
+    margin-bottom: 1rem;
+}
+
+.colaboradora-nome {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #101828;
+}
+
+.colaboradora-cargo {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #667085;
+}
+
+/* -------- */
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+
+.contato-background {
+    margin: 0 2rem;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+
+.contato {
+    width: 800px;
+}
+
+.contato-textos, .contato-cadastro {
+    display: block;
+    text-align: center;
+}
+
+.contato-titulo {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #101828;
+}
+
+.contato-descricao {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #667085;
+}
+
+.contato-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.contato-email {
+    width: 360px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: #667085;
+}
+
+.contato-botao {
+    color: #FFFFFF;
+    background-color: #8E2424;
+}
+
+.direitos-reservados {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #98A2B3;
+    margin-bottom: 5rem;
+}

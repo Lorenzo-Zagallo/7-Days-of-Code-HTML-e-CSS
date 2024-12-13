@@ -24,6 +24,12 @@ nav a {
     font-weight: 500;
     color: #667085;
     margin-right: 2rem;
+    cursor: pointer;
+    transition: all 0.2s 0s ease-in-out;
+}
+
+nav a:hover {
+    color: #b8bfcf;
 }
 
 button {
@@ -34,13 +40,28 @@ button {
     border-radius: 0.5em;
     background: none;
     color: #667085;
+    background-color: #eee;
     font-size: 1rem;
+    transition: all 0.2s 0s ease-in-out;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#login:hover {
+    color: #fff;
+    background-color: #ccc;
 }
 
 
-#cadastrar {
+#sign-up {
     color: #FFFFFF;
     background-color: #8E2424;
+}
+
+#sign-up:hover {
+    background-color: #661a1a;
 }
 
 
@@ -308,15 +329,25 @@ button {
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
+    outline: none;
 
     font-size: 1rem;
     font-weight: 400;
     color: #667085;
 }
 
-.contato-botao {
+.contato-email:focus {
+    background: #ddd;
+}
+
+#contato-botao {
     color: #FFFFFF;
     background-color: #8E2424;
+    transition: all 0.2s 0s ease-in-out;
+}
+
+#contato-botao:hover {
+    background-color: #661a1a;
 }
 
 .direitos-reservados {
